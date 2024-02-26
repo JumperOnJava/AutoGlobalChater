@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "autoglobalchatting",
+  "version": "${version}",
+  "name": "AutoGlobalChatting",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/JavaJumper/AutoGlobalChatting"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/autoglobalchatting/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.jumperonjava.autoglobalchatting.AutoGlobalChatting"
+    ]
+  },
+  "mixins": [
+    "autoglobalchatting.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
